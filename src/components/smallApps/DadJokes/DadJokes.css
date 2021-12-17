@@ -1,0 +1,168 @@
+.background {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(https://wallpaperaccess.com/full/639709.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  transition: 1s ease;
+  overflow: hidden;
+}
+
+.jokes {
+  width: 1000px;
+  height: 500px;
+  background-color: light;
+  display: flex;
+}
+
+.get-jokes {
+  height: 600px;
+  width: 300px;
+  transform: translate(30px, -50px);
+  position: relative;
+  background-color: purple;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 25px;
+  z-index: 2;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+#laugh-gif {
+  width: 200px;
+  height: 200px;
+}
+.show-jokes {
+  width: 650px;
+  height: 450px;
+  margin: auto;
+  position: static;
+  background-color: royalblue;
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: 1;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+#loading {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  margin: 50px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.button-81 {
+  background-color: #fff;
+  border: 0 solid #e2e8f0;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #0d172a;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Basier circle", -apple-system, system-ui, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 1rem 1.6rem;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-81:hover {
+  background-color: #f5be0b;
+  color: black;
+}
+
+#style-6::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #f5f5f5;
+}
+
+#style-6::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f5f5f5;
+}
+
+#style-6::-webkit-scrollbar-thumb {
+  background-color: #f90;
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.2) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.2) 50%,
+    rgba(255, 255, 255, 0.2) 75%,
+    transparent 75%,
+    transparent
+  );
+}
+.get-jokes-small {
+  display: none;
+  position: absolute;
+  z-index: 2;
+  bottom: 10%;
+  right: 40%;
+}
+@media (min-width: 768px) {
+  .button-81 {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .get-jokes {
+    display: none;
+  }
+  .get-jokes-small {
+    display: block;
+  }
+}
+
+@media (max-width: 700px) {
+  .show-jokes {
+    width: 90vw;
+    height: 75vh;
+    position: absolute;
+    left: 5vw;
+    top: 5vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .show-jokes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+  }
+  .button-81 {
+  }
+}

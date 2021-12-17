@@ -1,0 +1,9 @@
+.allGroups {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h1, p {
+    text-align: center;
+}
