@@ -3,7 +3,7 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import DadJokes from "./components/smallApps/DadJokes/DadJokes";
 import Home from "./components/Home";
 import LightsOut from "./components/smallApps/LightsOut.js/LightsOut";
-import GroupsMaker from "./components/smallApps/IDC-GroupOrginze/GroupsMaker";
+import GroupsMaker from "./components/smallApps/IDC-GroupOrganize/GroupsMaker";
 function App() {
   return (
     <Routes>

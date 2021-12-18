@@ -20,7 +20,7 @@ function Project({ project, classes }) {
         </a>
         <CardContent>
           <Typography variant="body2" color="text.secondary">
-            {project.about} <br />
+            {project.about} {project.file}<br />
             <a href={project.gitHub}>GitHub Code</a>
           </Typography>
         </CardContent>

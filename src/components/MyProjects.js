@@ -13,7 +13,7 @@ import {
 function MyProjects({ classes }) {
   return (
     <>
-      <h2>Big Projects</h2>
+      <h2>Projects</h2>
       <div className={classes.allBigProjects}>
         <Project project={yelpCamp} />
         <Project project={meatHome} />
@@ -21,7 +21,7 @@ function MyProjects({ classes }) {
       </div>
       <hr className={classes.line} />
 
-      <h2>Small Projects</h2>
+      <h2>Fun Projects</h2>
       <div className={classes.allSmallProjects}>
         <Project project={dadjokes} />
         <Project project={lightsOut} />

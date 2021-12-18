@@ -19,7 +19,7 @@ export const meatHome = {
   name: "MeAt Home",
   img: meatHomeImg,
   about:
-    "This is the first full stack project i have build all by myself. This is a small website to my brother's small business. In this website a costumer can make a reservation and the admin can look at the reservations, edit them, sort them and more.  The main technologies i used to build this website are: Node.js, Express, React and Mapbox. ",
+    "This is the first full stack project i have build all by myself. This is a small website to my brother's small business. In this website a costumer can make a reservation and the admin can look at the reservations, edit them, sort them and more.  The main technologies i used to build this website are: Node.js, Express, React and Mapbox.to see admin page you can login ('/login') with:  username: yossi, pw: a123456",
   gitHub: "https://github.com/amithg2/",
 };
 
@@ -38,7 +38,8 @@ export const dadjokes = {
   img: dadJokesImg,
   about:
     "This is a small web that shows jokes from the dad jokes API, made with React.",
-  gitHub: "https://github.com/amithg2/amit-dev-page/tree/master/src/components/smallApps/DadJokes",
+  gitHub:
+    "https://github.com/amithg2/amit-dev-page/tree/master/src/components/smallApps/DadJokes",
 };
 
 export const lightsOut = {
@@ -47,7 +48,8 @@ export const lightsOut = {
   img: lightsOutImg,
   about:
     "This is a small game made with react. All you need to do is to light all the squares. (it's VERY HARD).",
-  gitHub: "https://github.com/amithg2/amit-dev-page/tree/master/src/components/smallApps/LightsOut.js",
+  gitHub:
+    "https://github.com/amithg2/amit-dev-page/tree/master/src/components/smallApps/LightsOut.js",
 };
 
 export const groupMaker = {
@@ -55,7 +57,8 @@ export const groupMaker = {
   name: "Groups maker",
   img: groupsMakerImg,
   about:
-    "A friend of mine is learning in IDC herzliya, and his entrepreneurship class needed to create project groups and it was very difficult for them because they didnt knew each other. So my friend told me and i have build this groups maker program based on a survey.",
-  gitHub: "https://github.com/amithg2/amit-dev-page/tree/master/src/components/smallApps/IDC-GroupOrginze",
+    "A friend of mine is learning in IDC herzliya, and his entrepreneurship class needed to create project groups and it was very difficult for them because they didnt knew each other. So my friend told me and i have build this groups maker program based on a survey. You can get the file ",
+  gitHub:
+    "https://github.com/amithg2/amit-dev-page/tree/master/src/components/smallApps/IDC-GroupOrginze",
+  file: <a href="https://easyupload.io/l18et7">here</a>,
 };
-

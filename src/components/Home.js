@@ -20,19 +20,19 @@ function Home({ classes }) {
           I'm 24 years old, originally from Jerusalem. Ever since I was young I
           loved computers, programing and video games, of curse. I expanded
           electronics in high school and i knew that one day i will work as a
-          developer or software engineer. I have learned at the past six month
-          from scratch full Stack development and react with udemy courses. I
-          love to write code and i'm really looking forward to work as a react
-          developer.
+          developer or software engineer. For the past six months i have been
+          studing full stack development with help from friends and udemy
+          curses. I love to write code and i'm really looking forward to work as
+          a software developer.
         </p>
-        <hr className={classes.line} />
         <div>
-          <Certificates />
           <hr className={classes.line} />
 
           <MyProjects />
           <hr className={classes.line} />
+          <Certificates />
 
+        <hr className={classes.line} />
           <Contact />
 
           <Footer />

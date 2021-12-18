@@ -1,6 +1,6 @@
-# Dad Jokes app.
+# Lights Out
 
-This is a small web that shows jokes from the dad [jokes API](https://icanhazdadjoke.com/api), made with React.
+This is a small game made with react. All you need to do is to light all the squares. (it's VERY HARD).
 
 
 # Getting Started with Create React App
