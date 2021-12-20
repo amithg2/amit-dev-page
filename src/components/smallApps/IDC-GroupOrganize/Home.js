@@ -26,7 +26,10 @@ export default function Home(props) {
   return (
     <div className="groups-maker">
       <h1>Please insert CSV file: </h1>
+      <form onSubmit={uploadFile}>
       <input type="file" name="file" onChange={uploadFile} />
+        <button type='submit'>Submit</button>
+      </form>
     </div>
   );
 }
